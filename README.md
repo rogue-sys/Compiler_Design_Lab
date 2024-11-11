@@ -1,3 +1,5 @@
+LEXICAL ANALYZER
+
 To run this lexical analyzer code and get the output, follow these steps:
 
 //Create a file named lexical_analyzer.c
