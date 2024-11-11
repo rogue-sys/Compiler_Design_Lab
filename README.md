@@ -69,3 +69,16 @@ Number of vowels: 3
 Number of consonants: 7
 
 
+LEX PROGRAM TO CONVERT THE SUBSTRING abc TO ABC
+
+//lex replace_abc.l
+
+//gcc lex.yy.c -o replace_abc -ll
+
+//./replace_abc
+
+
+//example output
+
+Input: abc def abc xyz
+Output: ABC def ABC xyz
