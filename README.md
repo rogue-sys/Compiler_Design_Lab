@@ -82,3 +82,23 @@ LEX PROGRAM TO CONVERT THE SUBSTRING abc TO ABC
 
 Input: abc def abc xyz
 Output: ABC def ABC xyz
+
+
+PROGRAM TO DISPLAY NUMBER OF LINES,WORDS AND
+
+//lex count_lex.l
+
+//gcc lex.yy.c -o count_lex -ll
+
+//./count_lex input.txt
+
+VALID IDENTIFIER
+
+//yacc -d identifier.y
+
+//lex identifier.l
+
+//gcc y.tab.c lex.yy.c -o identifier_checker -ll
+
+//./identifier_checker
+
