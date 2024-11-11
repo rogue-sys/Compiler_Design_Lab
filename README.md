@@ -52,3 +52,20 @@ return is keyword
 ; is special character
 } is special character
 
+VOWELS_CONSONETS_COUNT_CHECK
+
+//lex vowel_consonant.l
+
+//gcc lex.yy.c -o vowel_consonant -ll
+
+
+//./vowel_consonant
+
+
+//Example output
+
+Enter the string of vowels and consonants: Hello World
+Number of vowels: 3
+Number of consonants: 7
+
+
